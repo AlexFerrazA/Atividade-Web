@@ -1,0 +1,52 @@
+div.letter {
+    border: 1px #000 solid;
+    background-color: rgb(185, 228, 30);
+    min-height: 120px;
+    margin: 40px 30px 30px 30px;
+}
+
+div.letter h1 {
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #990000;
+    color: #ffff;
+    width: calc(100% + 20px);
+
+    position: relative;
+    left: -10px;
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #fff  #7c0000 #7c0000 transparent;
+}
+
+
+h1::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: transparent #fff #7c0000 #7c0000;
+}
+
+div.letter-content{
+    margin: 0 auto;
+    width: 10%;
+
+      
+
+}
+
+
+#resultado{
+    width: 200px;
+    height: 100px;
+}
