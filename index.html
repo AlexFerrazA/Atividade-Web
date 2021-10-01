@@ -19,13 +19,13 @@
                     imc = imc.toFixed(2);
                     
                     if (imc < parseFloat(18,5)){
-                        document.getElementById("resultado").innerHTML = "O seu imc é " + imc + " Magreza";
+                        document.getElementById("resultado").innerHTML = "O seu imc é " + imc + "kg/m2 Magreza";
                     }else if( imc > parseFloat(18,5) && imc < parseFloat(24,4)){
-                        document.getElementById("resultado").innerHTML = "O seu imc é " + imc + " Normal";
+                        document.getElementById("resultado").innerHTML = "O seu imc é " + imc + "kg/m2 Normal";
                     }else if( imc > parseFloat(24,9) && imc < parseFloat(30)){
-                        document.getElementById("resultado").innerHTML = "O seu imc é " + imc + " Sorbrepeso";
+                        document.getElementById("resultado").innerHTML = "O seu imc é " + imc + "kg/m2 Sorbrepeso";
                     }else if(imc >  parseFloat(30)){
-                        document.getElementById("resultado").innerHTML = "O seu imc é " + imc + " Obesidade";
+                        document.getElementById("resultado").innerHTML = "O seu imc é " + imc + "kg/m2 Obesidade";
                     }
             }
 
